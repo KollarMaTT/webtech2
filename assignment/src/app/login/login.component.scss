@@ -1,0 +1,91 @@
+mat-panel-title {
+  font-family: Tahoma, Geneva, "Times New Roman";
+  text-align: left;
+}
+
+body {
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+  margin: auto;
+  padding: 100px;
+}
+#everything {
+  margin: auto;
+  width: 100%;
+  aligment: left;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: gray;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  text-align: center;
+  width: max-content;
+  alignment: bottom;
+  margin: 5px;
+  padding: 20px 70px 20px 70px;
+  color: black;
+  background-color: red;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: black !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: black !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: black !important;
+}
+
+::ng-deep input.mat-input-element {
+  color: black;
+}
+:host::ng-deep .mat-select-placeholder {
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: black;
+}
+
+.mat-focused .placeholder {
+  color: black;
+}
+
+mat-card {
+  margin: 0 auto;
+  width: calc(100% - 1400px);
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+}
+
+mat-card-title {
+  color: black;
+}
